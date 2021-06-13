@@ -1,7 +1,7 @@
 {
   "name": "ArdaDemr",
   "version": "1.0.0",
-  "description": "ArdaDemr Youtube Kanalına Ait Vampir Köylü Bot Altyapısı",
+  "description": "ArdaDemr Youtube Kanalına Ait Yapay Zekalı Kayıt Botu Altyapısı",
   "main": "node ardademr.js",
   "scripts": {
     "start": "node ardademr.js"

@@ -3,9 +3,9 @@ const client = new Discord.Client()
 const {
     JsonDatabase
 } = require("wio.db");
-
+// ArdaDemr Youtube Kanalına ait yapay zekalı kayıt botu altyapısı
 const db2 = new JsonDatabase("oto-kayit");
-
+// ArdaDemr Youtube Kanalına ait yapay zekalı kayıt botu altyapısı
 exports.run = async (client, message, args) => {
     let kod = "`"
     if(!message.member.hasPermission('MANAGE_GUILD')) return message.channel.send(new Discord.MessageEmbed().setColor('#3fe4ff').setDescription(`${message.author}, bu komutu kullanabilmek için **SUNUCUYU YÖNET** iznine sahip olmalısın.`));

@@ -3,7 +3,7 @@ const client = new Discord.Client()
 const {
     JsonDatabase
 } = require("wio.db");
-
+// ArdaDemr Youtube Kanalına ait yapay zekalı kayıt botu altyapısı
 const db2 = new JsonDatabase("oto-kayit");
 
 exports.run = async (client, message, args) => {
@@ -31,3 +31,5 @@ exports.conf = {
 exports.help = {
     name: "isim-rol-al"
 }
+
+// ArdaDemr Youtube Kanalına ait yapay zekalı kayıt botu altyapısı

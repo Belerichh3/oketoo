@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 
-
+// ArdaDemr Youtube Kanalına ait yapay zekalı kayıt botu altyapısı
 module.exports.run = async (client, message, args) => {
     let kod = "`"
     var embed = new Discord.MessageEmbed()
@@ -15,7 +15,7 @@ module.exports.run = async (client, message, args) => {
     .addField(`Rol Alma Sıfırla`,`İsimleri değiştirirken rol almayı kapatır.\n${kod}!isim-rol-al kapat${kod}`)
     .setColor(`#3fe4ff`)
     message.channel.send(embed)
-     
+    // ArdaDemr Youtube Kanalına ait yapay zekalı kayıt botu altyapısı 
 
 }
 
