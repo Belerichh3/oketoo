@@ -1,5 +1,5 @@
 const prefix = process.env.PREFIX;
-// ArdaDemr Youtube Kanalına ait yapay zekalı kayıt botu altyapısı
+// ArdaDemr Youtube Kanalına ticket botu altyapısı
 module.exports = (client, message) => {
   if (message.author.bot) return;
   if (message.channel.type == "dm") return;
@@ -14,4 +14,4 @@ module.exports = (client, message) => {
   if (cmd) cmd.run(client, message, args);
 };
 
-// ArdaDemr Youtube Kanalına ait yapay zekalı kayıt botu altyapısı
+// ArdaDemr Youtube Kanalına ticket botu altyapısı

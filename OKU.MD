@@ -1,10 +1,10 @@
 # BU ALTYAPI ArdaDemr YOUTUBE KANALINA AİTTİR
+# YAPAN: ARDADEMR
 
-
-# DİSCORD: https://discord.gg/RZwGEGKBct
+# DİSCORD: https://discord.gg/8DWy8aKkpv
 
 `
-YAPAY ZEKALI KAYIT BOTU ALTYAPISI
+TİCKET BOT ALTYAPISI
 `
 
 `
