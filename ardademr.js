@@ -48,7 +48,7 @@ client.login(process.env.TOKEN);
 //-----------------------DESTEK KAPATMA-----------------------\\
 client.on("message", message => {
   if (message.content.toLowerCase() === "!destek-kapat") {
-  if (!message.channel.name.startsWith(`destek-`)) return false;
+  if (!message.channel.name.startsWith(`destek-`)) return message.channel.send(`Bu komut ile sadece talep kapatabilirsin.`)
    message.channel.delete()
    db.delete(`destek_${message.author.id}`)
         }
