@@ -48,7 +48,7 @@ client.login(process.env.TOKEN);
 //-----------------------DESTEK KAPATMA-----------------------\\
 client.on("message", message => {
   if (message.content.toLowerCase() === "!destek-kapat") {
-  if (!message.channel.name.startsWith(`destek-`)) return
+  if (!message.channel.name.startsWith(`destek-`)) return false;
    message.channel.delete()
    db.delete(`destek_${message.author.id}`)
         }
