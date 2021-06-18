@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const db = require('quick.db');
-
+// ArdaDemr Youtube Kanalına ticket botu altyapısı
 exports.run = async (client, message, args) => {
 	message.delete({ timeout: 5000 })
     if(message.channel.id !== "DESTEK KANALI ID") return message.reply('bu komut sadece destek kanalında çalışır.').then(message => { message.delete({ timeout: 5000 })})
@@ -28,7 +28,7 @@ exports.run = async (client, message, args) => {
                 deny: ['VIEW_CHANNEL','READ_MESSAGE_HISTORY','SEND_MESSAGES'],
             },
         ]);
-    
+    // ArdaDemr Youtube Kanalına ticket botu altyapısı
 })
 
 
