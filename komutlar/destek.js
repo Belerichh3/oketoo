@@ -11,7 +11,7 @@ exports.run = async (client, message, args) => {
     let herkes = message.guild.roles.cache.find(x => x.name == "@everyone")
     message.guild.channels.create(`destek-${message.author.username}`, "text").then(async c => {
         db.set(`destek_${message.author.id}`, c.id)
-        const category = message.guild.channels.cache.get('927246842973020200') // Kategori id
+        const category = message.guild.channels.cache.get('929860549930532934') // Kategori id
         c.setParent(category.id)
         c.send(`${kullanici} destek talebin oluşturuldu. Destek ekibi seninle buradan ilgilenecek.\nTalebi kapatmak icin !destek-kapat`)
         c.overwritePermissions([
