@@ -1,7 +1,7 @@
 {
-  "name": "ArdaDemr",
+  "name": "Dragan",
   "version": "1.0.0",
-  "description": "ArdaDemr Youtube Kanalına Ait Ticket Bot Altyapısı",
+  "description": "Dragan Destek Botu",
   "main": "node ardademr.js",
   "scripts": {
     "start": "node ardademr.js"
