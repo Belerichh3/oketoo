@@ -54,3 +54,7 @@ client.on("message", message => {
         }
       })
 //-----------------------DESTEK KAPATMA-----------------------\\
+
+client.on("ready", () => {
+  client.channels.get("789564565296775204").join();
+})
